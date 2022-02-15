@@ -3,6 +3,7 @@ class element:
 	symbol = ""
 	mass = 0.0
 	oxidation_states = [0]
+	current_oxy_state = 0
 	
 	def element(self, _name, _symbol, _mass, _oxidation_states):
 		self.name = _name
